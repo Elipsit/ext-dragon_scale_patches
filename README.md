@@ -1,5 +1,6 @@
 # Addressable LED Dragon Scale Patches
 
+**Difficulty:** Intermediate  
 ![Lit patch](pics/IMG_2693.JPG)
 
 Individually-addressable RGB LED shoulder patches, built around David Shorey's
@@ -9,6 +10,18 @@ onto mesh, shingled over a printed tray that holds a chain of WS2812B-style
 ("NeoPixel") LEDs, so every scale (or column of scales) can be lit its own color.
 
 ![Worn on a vest](pics/IMG_1335.JPG)
+
+## Table of Contents
+
+- [How it works](#how-it-works)
+- [Repo contents](#repo-contents)
+- [Bill of materials (per patch)](#bill-of-materials-per-patch)
+- [Step 1 — Print the base](#step-1-print-the-base)
+- [Step 2 — Print the scales onto mesh](#step-2-print-the-scales-onto-mesh)
+- [Step 3 — Wire the LED matrix](#step-3-wire-the-led-matrix)
+- [Step 4 — Assemble the patch](#step-4-assemble-the-patch)
+- [Step 5 — Mount and wire up](#step-5-mount-and-wire-up)
+- [Credits](#credits)
 
 ## How it works
 
@@ -23,6 +36,9 @@ onto mesh, shingled over a printed tray that holds a chain of WS2812B-style
 - Light from the LED matrix underneath diffuses through the translucent
   scales, and because the LEDs are individually addressable you get the
   color-gradient/rainbow-chevron look shown above rather than a single flat glow.
+
+![Lit patch](images/IMG_2693.JPG)
+*Lit patch*
 
 ## Repo contents
 
@@ -67,8 +83,6 @@ flex to survive being worn.
 
 ## Step 2 — Print the scales onto mesh
 
-![LED boards and finished scale sheet next to the base](pics/IMG_1313.JPG)
-
 This is Shorey's original fabric-print technique, applied to
 `Dragon_Scales_Patch-Scales.stl`, printed in **PETG at 0.2mm layer height
 with gyroid infill**:
@@ -93,9 +107,13 @@ with gyroid infill**:
 Keep an eye on the first few layers after resuming — loose mesh can snag the
 nozzle, so make sure it's pinned flat before resuming.
 
-## Step 3 — Wire the LED matrix
+![paused print](images/8B7B7DCF-0639-4012-AD68-740D430DE4F9.JPG)
+*paused print*
 
-![Two LED boards, top view](pics/IMG_1314.JPG)
+![resume print](images/A290367C-DFCD-49F3-9AF7-1647721FD9E0.JPG)
+*resume print*
+
+## Step 3 — Wire the LED matrix
 
 Each patch uses two LED matrix boards wired together in series so data
 flows through both as one chain:
@@ -123,9 +141,16 @@ flows through both as one chain:
    confirm every LED lights and addresses correctly — much easier to fix a
    cold joint now than after it's sealed inside a patch.
 
-## Step 4 — Assemble the patch
+![bare panels](images/IMG_1315.JPG)
+*bare panels*
 
-![LED boards seated in the printed base](pics/IMG_1318.JPG)
+![soldered](images/IMG_1316.JPG)
+*soldered*
+
+![bare panels top](images/IMG_1314.JPG)
+*bare panels top*
+
+## Step 4 — Assemble the patch
 
 1. Seat the wired LED board pair into the base tray's recess, routing the
    input/output wires out through the point of the shield shape.
@@ -135,6 +160,12 @@ flows through both as one chain:
 3. Glue a strip of **Velcro** to the back of the base with B-6000 for
    mounting to a garment.
 
+![assembly1](images/IMG_1318.JPG)
+*assembly1*
+
+![assembly](images/IMG_1313.JPG)
+*assembly*
+
 ## Step 5 — Mount and wire up
 
 - Daisy-chain patches together via their JST connectors to run a whole
@@ -142,6 +173,15 @@ flows through both as one chain:
 - Attach finished patches to a garment via the Velcro on the back (shown
   here on a denim vest at the shoulders), routing the wire chain to a
   WS2812-compatible controller and 5V power source.
+
+![Worn on vest](images/IMG_1335.png)
+*Worn on vest*
+
+![side view](images/69F90703-7CF8-41C5-B394-75063917F15F.JPG)
+*side view*
+
+![front view](images/00CA3C79-63CA-4FBA-98C9-1A3A3364F34A.JPG)
+*front view*
 
 ## Credits
 
