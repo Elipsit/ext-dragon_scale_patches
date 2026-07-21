@@ -37,7 +37,7 @@ onto mesh, shingled over a printed tray that holds a chain of WS2812B-style
   scales, and because the LEDs are individually addressable you get the
   color-gradient/rainbow-chevron look shown above rather than a single flat glow.
 
-![Lit patch](images/IMG_2693.JPG)
+![Lit patch](pics/IMG_2693.JPG)
 *Lit patch*
 
 ## Repo contents
@@ -107,10 +107,10 @@ with gyroid infill**:
 Keep an eye on the first few layers after resuming — loose mesh can snag the
 nozzle, so make sure it's pinned flat before resuming.
 
-![paused print](images/8B7B7DCF-0639-4012-AD68-740D430DE4F9.JPG)
+![paused print](pics/8B7B7DCF-0639-4012-AD68-740D430DE4F9.JPG)
 *paused print*
 
-![resume print](images/A290367C-DFCD-49F3-9AF7-1647721FD9E0.JPG)
+![resume print](pics/A290367C-DFCD-49F3-9AF7-1647721FD9E0.JPG)
 *resume print*
 
 ## Step 3 — Wire the LED matrix
@@ -141,13 +141,13 @@ flows through both as one chain:
    confirm every LED lights and addresses correctly — much easier to fix a
    cold joint now than after it's sealed inside a patch.
 
-![bare panels](images/IMG_1315.JPG)
+![bare panels](pics/IMG_1315.JPG)
 *bare panels*
 
-![soldered](images/IMG_1316.JPG)
+![soldered](pics/IMG_1316.JPG)
 *soldered*
 
-![bare panels top](images/IMG_1314.JPG)
+![bare panels top](pics/IMG_1314.JPG)
 *bare panels top*
 
 ## Step 4 — Assemble the patch
@@ -160,10 +160,10 @@ flows through both as one chain:
 3. Glue a strip of **Velcro** to the back of the base with B-6000 for
    mounting to a garment.
 
-![assembly1](images/IMG_1318.JPG)
+![assembly1](pics/IMG_1318.JPG)
 *assembly1*
 
-![assembly](images/IMG_1313.JPG)
+![assembly](pics/IMG_1313.JPG)
 *assembly*
 
 ## Step 5 — Mount and wire up
@@ -174,13 +174,13 @@ flows through both as one chain:
   here on a denim vest at the shoulders), routing the wire chain to a
   WS2812-compatible controller and 5V power source.
 
-![Worn on vest](images/IMG_1335.png)
+![Worn on vest](pics/IMG_1335.png)
 *Worn on vest*
 
-![side view](images/69F90703-7CF8-41C5-B394-75063917F15F.JPG)
+![side view](pics/69F90703-7CF8-41C5-B394-75063917F15F.JPG)
 *side view*
 
-![front view](images/00CA3C79-63CA-4FBA-98C9-1A3A3364F34A.JPG)
+![front view](pics/00CA3C79-63CA-4FBA-98C9-1A3A3364F34A.JPG)
 *front view*
 
 ## Credits
