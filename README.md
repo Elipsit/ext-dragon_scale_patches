@@ -141,14 +141,15 @@ flows through both as one chain:
    confirm every LED lights and addresses correctly — much easier to fix a
    cold joint now than after it's sealed inside a patch.
 
+![bare panels top](pics/IMG_1314.JPG)
+*bare panels top*
+
 ![bare panels](pics/IMG_1315.JPG)
 *bare panels*
 
 ![soldered](pics/IMG_1316.JPG)
 *soldered*
 
-![bare panels top](pics/IMG_1314.JPG)
-*bare panels top*
 
 ## Step 4 — Assemble the patch
 
@@ -174,14 +175,15 @@ flows through both as one chain:
   here on a denim vest at the shoulders), routing the wire chain to a
   WS2812-compatible controller and 5V power source.
 
-![Worn on vest](pics/IMG_1335.png)
-*Worn on vest*
 
 ![side view](pics/69F90703-7CF8-41C5-B394-75063917F15F.JPG)
 *side view*
 
 ![front view](pics/00CA3C79-63CA-4FBA-98C9-1A3A3364F34A.JPG)
 *front view*
+
+![Worn on vest](pics/IMG_1335.jpg)
+*Worn on vest*
 
 ## Credits
 
